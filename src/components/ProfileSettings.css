@@ -1,0 +1,43 @@
+.profile-settings-container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-settings-container h2 {
+    text-align: center;
+    color: navy;
+  }
+  
+  .profile-form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .profile-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .checkbox-label input {
+    margin-right: 10px;
+  }
+  
+  .save-button {
+    background: navy;
+    color: white;
+  }
+    

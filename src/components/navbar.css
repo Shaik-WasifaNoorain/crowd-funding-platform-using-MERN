@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #333;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* Ensure the navbar and footer span full width */
+.navbar, .footer {
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+  .navbar h2 {
+    color: white;
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
